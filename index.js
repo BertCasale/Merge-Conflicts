@@ -1,5 +1,7 @@
+
 function addAllNumbers(...arr) {
-  if (!arr.every((element) => Number.isNumber(element)))
+  const d = Number.isNumber(a);
+  if (!arr.every((element) => d))
     throw "All arguments must be numbers.";
   return arr.reduce((a, b) => a + b);
 }
