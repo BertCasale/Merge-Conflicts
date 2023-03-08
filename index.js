@@ -8,3 +8,4 @@ function addAllNumbers(...arr) {
 
 addAllNumbers(1, 2, 3); //> 6
   addAllNumbers(10, "B", 20); //> error All arguments must be numbers.
+
